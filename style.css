@@ -1,7 +1,24 @@
+
+a {
+  text-decoration: none;
+  color: rgb(4, 24, 102);
+}
+
+.nav-link{
+  padding: 12px;
+  background: rgb(206, 220, 241);
+  border-radius: 8px;
+}
+
+header{
+  background: rgb(62, 101, 193);
+  margin: 0;
+}
+
 .index-page{
-  body{
-      background-color:rgb(183, 207, 222);
-  }
+  
+  background-color:rgb(183, 207, 222);
+  
 
   h1 {
     padding-top: 30px;
@@ -92,7 +109,12 @@
     font-size: 16pt;
   }
 
-  
+  .box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  }
 
 
 }
