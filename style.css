@@ -1,71 +1,118 @@
 
+
+/*basic link style, erases the underline and sets the color*/
 a {
   text-decoration: none;
   color: rgb(4, 24, 102);
 }
 
+/*For the links in the navigation bar*/
 .nav-link{
   padding: 12px;
-  background: rgb(206, 220, 241);
-  border-radius: 8px;
+  color: white;
+  border: 2px solid #ccc;
 }
 
+/*For the header background color I actually dont know what this is*/
 header{
   background: rgb(62, 101, 193);
-  margin: 0;
+  padding: 0;
 }
 
+/*Main page css*/
 .index-page{
-  
+  /*BG color and font*/
   background-color:rgb(183, 207, 222);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
-
+  /*heading*/
   h1 {
     padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-
+  /*navigation bar*/
   nav {
     font-size: large;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
   }
 
+
+  /*paragraph*/
   p{
     margin-top: 50px;
     font-size: 13pt;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
   }
 
-  h2{
-    margin-top: 100px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-  }
-
-  li{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
-    margin-left: 300px;
-  }
 }
 
+/*Image of MAIN, i think this centers the img*/
+.main-img{
+  display: block;
+  margin: auto;
+}
+
+/*For the bfs course description link in COURSES*/
+.bfs-links{
+  margin: 30px;
+  font-size: 14pt;
+}
+
+/*Page header for COURSES. Says "Courses"*/
+.page-header{
+  font-size: 30pt;
+  margin-top: 50px;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  background-color: aliceblue;
+  color: rgb(4, 24, 102);
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.dropbtn{
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.dropdown a{
+  display: block;
+  color: rgb(4, 24, 102);
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown .content{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+
+
+
+/*COURSES css*/
 .course-page {
+  /*BG color and font*/
   background-color: rgb(183, 207, 222);
-  padding:50px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+
+  /*for the other h1, "AP Courses"*/
   h1{
     padding-top: 30px;
     display: flex;
@@ -73,16 +120,16 @@ header{
     align-items: center;
   }
 
+  /*navigation bar*/
   nav {
     font-size: large;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-
   }
 
-
+  /*list*/
   li {
     font-size: 14pt;
     margin-left: 300px;
@@ -90,6 +137,7 @@ header{
     margin-bottom: 20px;
   } 
 
+  /*Paragraph, "Teacher"*/
   p {
     font-size: 15pt;
     margin-left: 300px;
@@ -97,24 +145,18 @@ header{
     margin-bottom: 20px;
   }
 
+  /*h2, subjects, "Science"*/
   h2{
     margin-left: 200px;
     margin-top: 30px;
   }
 
+  /*h3, course names, "Calc BC"*/
   h3{
     margin-left: 300px;
     margin-top: 30px;
     text-align: left;
     font-size: 16pt;
   }
-
-  .box {
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-  }
-
 
 }
