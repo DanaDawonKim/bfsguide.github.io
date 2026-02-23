@@ -103,6 +103,32 @@ header{
 }
 
 
+/*Comment section*/
+.review-form,
+.reviews-container {
+  background: #f4f4f4;
+  padding: 20px;
+  margin-top: 15px;
+  margin-right: 500px
+  ;
+  border-radius: 10px;
+}
+
+.review {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.diff-list{
+  list-style: none;
+}
 
 
 /*COURSES css*/
@@ -154,7 +180,7 @@ header{
   /*h3, course names, "Calc BC"*/
   h3{
     margin-left: 300px;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: left;
     font-size: 16pt;
   }

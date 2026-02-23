@@ -43,9 +43,46 @@
             <li>Formative/Summatives: Reflections, essays, discussions</li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('litcomp')">Leave a Review</button>
+
+                    <div id="review-form-litcomp" class="review-form hidden">
+                        <input type="email" id="email-litcomp" placeholder="Your email (not public)" required>
+
+                        <select id="grade-litcomp">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+                        <select id="rating-litcomp">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+                        <textarea id="comment-litcomp" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('litcomp')">Submit</button>
+                    </div>
+
+                    <div id="reviews-litcomp" class="reviews-container"></div>
+                    <div id="pagination-litcomp" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
         </ul>
+
         <h3>Language and Composition</h3>
         <p>Mr Bishop</p>
         <ul>
@@ -53,8 +90,45 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('langcomp')">Leave a Review</button>
+
+                    <div id="review-form-langcomp" class="review-form hidden">
+                        <input type="email" id="email-langcomp" placeholder="Your email (not public)" required>
+
+                        <select id="grade-langcomp">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+                        <select id="rating-langcomp">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+                        <textarea id="comment-langcomp" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('langcomp')">Submit</button>
+                    </div>
+
+                    <div id="reviews-langcomp" class="reviews-container"></div>
+                    <div id="pagination-langcomp" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+            
         </ul>
 
         <h2 id="math">1.2 Math:</h2>
@@ -65,9 +139,47 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('calcab')">Leave a Review</button>
+
+                    <div id="review-form-calcab" class="review-form hidden">
+                        <input type="email" id="email-calcab" placeholder="Your email (not public)" required>
+
+                        <select id="grade-calcab">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+                        <select id="rating-calcab">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+                        <textarea id="comment-calcab" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('calcab')">Submit</button>
+                    </div>
+
+                    <div id="reviews-calcab" class="reviews-container"></div>
+                    <div id="pagination-calcab" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
         </ul>
+
+
         <h3>Calculus BC</h3>
         <p>Mr Gates</p>
         <ul>
@@ -75,8 +187,45 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('calcbc')">Leave a Review</button>
+
+                    <div id="review-form-calcbc" class="review-form hidden">
+                        <input type="email" id="email-calcbc" placeholder="Your email (not public)" required>
+
+                        <select id="grade-calcbc">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+                        <select id="rating-calcbc">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+                        <textarea id="comment-calcbc" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('calcbc')">Submit</button>
+                    </div>
+
+                    <div id="reviews-calcbc" class="reviews-container"></div>
+                    <div id="pagination-calcbc" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+
         </ul>      
         <h3>Statistics</h3>
         <p>Mr Gates</p>
@@ -85,8 +234,44 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+                    <div class="reviews-wrapper">
+                        <button onclick="toggleReviewForm('stats')">Leave a Review</button>
+
+                        <div id="review-form-stats" class="review-form hidden">
+                            <input type="email" id="email-stats" placeholder="Your email (not public)" required>
+
+                            <select id="grade-stats">
+                            <option value="">Select Grade</option>
+                            <option value="9">Grade 9</option>
+                            <option value="10">Grade 10</option>
+                            <option value="11">Grade 11</option>
+                            <option value="12">Grade 12</option>
+                            </select>
+
+                            <select id="rating-stats">
+                            <option value="">Difficulty</option>
+                            <option value="1">★☆☆☆☆</option>
+                            <option value="2">★★☆☆☆</option>
+                            <option value="3">★★★☆☆</option>
+                            <option value="4">★★★★☆</option>
+                            <option value="5">★★★★★</option>
+                            </select>
+
+                            <textarea id="comment-stats" placeholder="Your comment"></textarea>
+                            <button onclick="submitReview('stats')">Submit</button>
+                        </div>
+
+                        <div id="reviews-stats" class="reviews-container"></div>
+                        <div id="pagination-stats" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
         </ul>
         
 
@@ -99,9 +284,46 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('worldhist')">Leave a Review</button>
+
+                    <div id="review-form-worldhist" class="review-form hidden">
+                        <input type="email" id="email-worldhist" placeholder="Your email (not public)" required>
+
+                        <select id="grade-worldhist">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+                        <select id="rating-worldhist">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+                        <textarea id="comment-worldhist" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('worldhist)">Submit</button>
+                    </div>
+
+                    <div id="reviews-worldhist" class="reviews-container"></div>
+                    <div id="pagination-worldhist" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
         </ul>
+
         <h3>US History</h3>
         <p>Ms Mortimer</p>
         <ul>
@@ -109,9 +331,51 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('ushist')">Leave a Review</button>
+
+
+                        <div id="review-form-ushist" class="review-form hidden">
+                            <input type="email" id="email-ushist" placeholder="Your email (not public)" required>
+
+
+                            <select id="grade-ushist">
+                            <option value="">Select Grade</option>
+                            <option value="9">Grade 9</option>
+                            <option value="10">Grade 10</option>
+                            <option value="11">Grade 11</option>
+                            <option value="12">Grade 12</option>
+                            </select>
+
+
+                            <select id="rating-ushist">
+                            <option value="">Difficulty</option>
+                            <option value="1">★☆☆☆☆</option>
+                            <option value="2">★★☆☆☆</option>
+                            <option value="3">★★★☆☆</option>
+                            <option value="4">★★★★☆</option>
+                            <option value="5">★★★★★</option>
+                            </select>
+
+
+                            <textarea id="comment-ushist" placeholder="Your comment"></textarea>
+                            <button onclick="submitReview('ushist')">Submit</button>
+                        </div>
+                        <div id="reviews-ushist" class="reviews-container"></div>
+                        <div id="pagination-ushist" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+
         </ul>
+
         <h3>Macroeconomics</h3>
         <p>Mr Van Genderen</p>
         <ul>
@@ -119,8 +383,52 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            
+<li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                        <button onclick="toggleReviewForm('macro')">Leave a Review</button>
+
+
+                        <div id="review-form-macro" class="review-form hidden">
+                            <input type="email" id="email-macro" placeholder="Your email (not public)" required>
+
+
+                            <select id="grade-macro">
+                            <option value="">Select Grade</option>
+                            <option value="9">Grade 9</option>
+                            <option value="10">Grade 10</option>
+                            <option value="11">Grade 11</option>
+                            <option value="12">Grade 12</option>
+                            </select>
+
+
+                            <select id="rating-macro">
+                            <option value="">Difficulty</option>
+                            <option value="1">★☆☆☆☆</option>
+                            <option value="2">★★☆☆☆</option>
+                            <option value="3">★★★☆☆</option>
+                            <option value="4">★★★★☆</option>
+                            <option value="5">★★★★★</option>
+                            </select>
+
+
+                            <textarea id="comment-macro" placeholder="Your comment"></textarea>
+                            <button onclick="submitReview('macro')">Submit</button>
+                        </div>
+
+
+                        <div id="reviews-macro" class="reviews-container"></div>
+                        <div id="pagination-macro" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+
         </ul>
         <h3>Microeconomics</h3>
         <p>Mr Van Genderen</p>
@@ -129,8 +437,52 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('micro')">Leave a Review</button>
+
+
+                    <div id="review-form-micro" class="review-form hidden">
+                        <input type="email" id="email-micro" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-micro">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-micro">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-micro" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('micro')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-micro" class="reviews-container"></div>
+                        <div id="pagination-micro" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+
+
         </ul>
         <h3>Psychology</h3>
         <p>Ms Viera</p>
@@ -139,11 +491,40 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li>Difficulty: ☆☆☆☆☆
+                <button onclick="toggleReviewForm('psych')">Leave a review</button>
+
+                <div id="review-form-psych" class="review-form hidden">
+                    <input type="email" id="email-psych" placeholder="Your email (not public)" required>
+
+                    <select id="grade-psych">
+                    <option value="">Select Grade</option>
+                    <option value="9">Grade 9</option>
+                    <option value="10">Grade 10</option>
+                    <option value="11">Grade 11</option>
+                    <option value="12">Grade 12</option>
+                    </select>
+
+                    <select id="rating-psych">
+                    <option value="">Difficulty</option>
+                    <option value="1">★☆☆☆☆</option>
+                    <option value="2">★★☆☆☆</option>
+                    <option value="3">★★★☆☆</option>
+                    <option value="4">★★★★☆</option>
+                    <option value="5">★★★★★</option>
+                    </select>
+
+                    <textarea id="comment-psych" placeholder="Your comment"></textarea>
+
+                    <button onclick="submitReview('psych')">Submit</button>
+                </div>
+
+                <div id="reviews-psych" class="reviews-container">
+                    <!-- Reviews will appear here -->
+                </div>
+            </li>
         </ul>
         
-
 
 
         <h2 id="science">1.4 Science:</h2>
@@ -154,9 +535,52 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('chem')">Leave a Review</button>
+
+
+                    <div id="review-form-chem" class="review-form hidden">
+                        <input type="email" id="email-chem" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-chem">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-chem">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+chem
+                        <textarea id="comment-chem" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('chem')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-chem" class="reviews-container"></div>
+                        <div id="pagination-chem" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+
         </ul>
+
         <h3>Physics 2</h3>
         <p>Mr Simnett</p>
         <ul>
@@ -164,9 +588,52 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('physics2')">Leave a Review</button>
+
+
+                    <div id="review-form-physics2" class="review-form hidden">
+                        <input type="email" id="email-physics2" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-physics2">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-physics2">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-physics2" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('physics2')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-physics2" class="reviews-container"></div>
+                        <div id="pagination-physics2" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
         </ul>
+        
         <h3>Biology</h3>
         <p>Mr Simnett</p>
         <ul>
@@ -174,8 +641,51 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('bio')">Leave a Review</button>
+
+
+                    <div id="review-form-bio" class="review-form hidden">
+                        <input type="email" id="email-bio" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-bio">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-bio">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-bio" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('bio')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-bio" class="reviews-container"></div>
+                        <div id="pagination-bio" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+
         </ul>
 
 
@@ -189,9 +699,52 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('csa')">Leave a Review</button>
+
+
+                    <div id="review-form-csa" class="review-form hidden">
+                        <input type="email" id="email-csa" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-csa">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-csa">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-csa" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('csa')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-csa" class="reviews-container"></div>
+                        <div id="pagination-csa" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
         </ul>
+
         <h3>Computer Science Principles</h3>
         <p>Dr Barnes</p>
         <ul>
@@ -199,8 +752,49 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('csp')">Leave a Review</button>
+
+
+                    <div id="review-form-csp" class="review-form hidden">
+                        <input type="email" id="email-csp" placeholder="Your email (not public)" required>
+csp
+                        <select id="grade-csp">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-csp">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-csp" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('csp')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-csp" class="reviews-container"></div>
+                        <div id="pagination-csp" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
         </ul>
 
         <h2 id="art">1.6 Art:</h2>
@@ -211,9 +805,53 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('2dart')">Leave a Review</button>
+
+
+                    <div id="review-form-2dart" class="review-form hidden">
+                        <input type="email" id="email-2dart" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-2dart">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-2dart">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-2dart" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('2dart')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-2dart" class="reviews-container"></div>
+                        <div id="pagination-2dart" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+
         </ul>
+
         <h3>Drawing</h3>
         <p>Ms Soo</p>
         <ul>
@@ -221,8 +859,50 @@
             <li>Formative/Summatives: </li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('drawing')">Leave a Review</button>
+
+
+                    <div id="review-form-drawing" class="review-form hidden">
+                        <input type="email" id="email-drawing" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-drawing">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-drawing">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-drawing" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('drawing')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-drawing" class="reviews-container"></div>drawing
+                        <div id="pagination-drawing" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
         </ul>
 
             
@@ -235,18 +915,104 @@
             <li>Formative/Summatives: Reflections, essays, discussions</li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('research')">Leave a Review</button>
+
+
+                    <div id="review-form-research" class="review-form hidden">
+                        <input type="email" id="email-research" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-research">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-research">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+                        <textarea id="comment-research" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('research')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-research" class="reviews-container"></div>
+                        <div id="pagination-research" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+
         </ul>   
+
         <h3>Seminar</h3>
-        <p>Mr Bishop</p>
+        <p>Dr Brock</p>
         <ul>
             <li>Teaching Stlye: Slides</li>
             <li>Formative/Summatives: Reflections, essays, discussions</li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('seminar')">Leave a Review</button>
+
+
+                    <div id="review-form-seminar" class="review-form hidden">
+                        <input type="email" id="email-seminar" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-seminar">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-seminar">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-seminar" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('seminar')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-seminar" class="reviews-container"></div>
+                        <div id="pagination-seminar" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+
         </ul> 
 
 
@@ -258,8 +1024,50 @@
             <li>Formative/Summatives: Reflections, essays, discussions</li>
             <li>Things to consider: </li>
             <li>Average time spent outside of class: "n" hours</li>
-            <li>Rating</li>
-            <li>Additional resources:</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Difficulty ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('spanish')">Leave a Review</button>
+
+
+                    <div id="review-form-spanish" class="review-form hidden">
+                        <input type="email" id="email-spanish" placeholder="Your email (not public)" required>
+
+
+                        <select id="grade-spanish">
+                        <option value="">Select Grade</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                        </select>
+
+
+                        <select id="rating-spanish">
+                        <option value="">Difficulty</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-spanish" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('spanish')">Submit</button>
+                    </div>
+
+
+                        <div id="reviews-spanish" class="reviews-container"></div>
+                        <div id="pagination-spanish" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
         </ul>
 
 
@@ -268,6 +1076,11 @@
             <a href="https://drive.google.com/file/d/1X5jXVThHoJNds14ILtHiFQ_zZ1J3Obbx/view">BFS Course Description</a>
         </div>
     
+
+
+
+        <script type="module" src="script.js"></script>
+
     </body>
 
 
