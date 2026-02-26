@@ -59,11 +59,7 @@ header{
   margin: auto;
 }
 
-/*For the bfs course description link in COURSES*/
-.bfs-links{
-  margin: 30px;
-  font-size: 14pt;
-}
+
 
 /*Page header for COURSES. Says "Courses"*/
 .page-header{
@@ -104,8 +100,7 @@ header{
 
 
 /*Comment section*/
-.review-form,
-.reviews-container {
+.review-form .reviews-container {
   background: #f4f4f4;
   padding: 20px;
   margin-top: 15px;
@@ -185,4 +180,127 @@ header{
     font-size: 16pt;
   }
 
+}
+
+.ecs-page {
+  /*BG color and font*/
+  background-color: rgb(183, 207, 222);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+  /*for the other h1, "AP Courses"*/
+  h1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*navigation bar*/
+  nav {
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+  }
+
+  /*list*/
+  li {
+    font-size: 14pt;
+    margin-left: 300px;
+    text-align: left;
+    margin-bottom: 20px;
+  } 
+
+  /*Paragraph, "Teacher"*/
+  p {
+    font-size: 15pt;
+    margin-left: 300px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  /*h2, subjects, "Science"*/
+  h2{
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+
+  /*h3, course names, "Calc BC"*/
+  h3{
+    margin-left: 300px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 16pt;
+  }
+}
+
+
+.senior-page {
+  /*BG color and font*/
+  background-color: rgb(183, 207, 222);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+  /*for the other h1, "AP Courses"*/
+  h1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*navigation bar*/
+  nav {
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+  }
+
+  /*list*/
+  li {
+    font-size: 14pt;
+    margin-left: 300px;
+    text-align: left;
+    margin-bottom: 20px;
+  } 
+
+  /*Paragraph, "Teacher"*/
+  p {
+    font-size: 15pt;
+    margin-left: 300px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  /*h2, subjects, "Science"*/
+  h2{
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+
+  /*h3, course names, "Calc BC"*/
+  h3{
+    margin-left: 300px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 16pt;
+  }
+
+
+
+/*bfs links description(?), "addtional links"*/
+.links-description{
+  margin-top: 200px;
+}
+
+/*For the bfs course description link in COURSES*/
+.bfs-links{
+  margin-left: 300px;
+  margin-bottom: 40px;
+  font-size: 14pt;
+  text-align: left;
 }

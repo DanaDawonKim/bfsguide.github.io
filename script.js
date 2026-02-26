@@ -5,7 +5,7 @@ import { collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/
 
 // Your Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyDkpD7VbmyLM1R2qZkxueYsB9g8tWr9CE0",
+  apiKey: "AIzaSyBFieiCf5FIzxLzAlh22lN4I-UKzN3RYno",
   authDomain: "bfsguide-815e8.firebaseapp.com",
   projectId: "bfsguide-815e8",
   storageBucket: "bfsguide-815e8.firebasestorage.app",
