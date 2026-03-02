@@ -182,6 +182,14 @@ header{
 
 }
 
+.tabbed{
+  display: block;
+  margin-left: 20px;
+}
+
+
+
+
 .ecs-page {
   /*BG color and font*/
   background-color: rgb(183, 207, 222);
