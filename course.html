@@ -12,6 +12,8 @@
                 <a href="course.html" class="nav-link">Courses</a>
                 <a href="ecs.html" class="nav-link">Extra Curriculars</a>
                 <a href="senior.html" class="nav-link">Senior's advice</a>
+                <a href="login.html" class ="nav-link">Login</a>
+            
             </nav>
         </header>
 
@@ -1057,13 +1059,17 @@ csp
             <a href="https://drive.google.com/file/d/1X5jXVThHoJNds14ILtHiFQ_zZ1J3Obbx/view">BFS Course Description</a>
         </div>
     
-
+        onAuthStateChanged(auth, (user) => {
+            if (!user) {
+                window.location.href = "login.html";
+            }
+        });
 
 
         <script type="module" src="script.js"></script>
 
     </body>
-
+    
 
 
 
