@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - BFS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+
+    <div class="wrapper">
+        <!-- Logged in view -->
+        <div id="accountView" style="display:none;">
+            <h1>My Account</h1>
+            <div class="input-box" style="text-align:left; padding: 12px 16px;">
+                <p><strong>Email:</strong> <span id="userEmail"></span></p>
+            </div>
+            <div class="input-box" style="text-align:left; padding: 12px 16px;">
+                <p><strong>Password:</strong> ••••••••</p>
+            </div>
+            <button class="btn" id="resetPasswordBtn">Reset Password</button>
+            <p id="resetMsg" class="success-msg"></p>
+            <button class="btn" id="logoutBtn" style="margin-top: 10px; background: #e74c3c;">Log Out</button>
+        </div>
+
+        <!-- Logged out view -->
+        <div id="loggedOutView" style="display:none;">
+            <h1>Account</h1>
+            <p style="text-align:center; margin-bottom: 20px;">You are not logged in.</p>
+            <a href="login.html"><button class="btn">Login</button></a>
+            <div class="register-link">
+                <p>Don't have an account? <a href="register.html">Register</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="account.js"></script>
+</body>
+</html>

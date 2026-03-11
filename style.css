@@ -1,4 +1,16 @@
+.error-msg {
+    color: #e74c3c;
+    font-size: 14px;
+    margin: 8px 0;
+    text-align: center;
+}
 
+.success-msg {
+    color: #2ecc71;
+    font-size: 14px;
+    margin: 8px 0;
+    text-align: center;
+}
 
 /*basic link style, erases the underline and sets the color*/
 a {

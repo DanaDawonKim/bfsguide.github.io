@@ -29,11 +29,6 @@ document.getElementById("loginForm").addEventListener("submit", (e) => {
     });
 });
 
-onAuthStateChanged(auth, (user) => {
-  if (user) {
-    window.location.href = "index.html";
-  }
-});
 
 document.querySelector('.remember-forgot a').addEventListener("click", async (e) => {
   e.preventDefault();
