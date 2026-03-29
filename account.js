@@ -36,4 +36,19 @@ document.getElementById("resetPasswordBtn").addEventListener("click", async () =
     resetMsg.textContent = err.message;
     resetMsg.style.color = "red";
   }
+document.getElementById("togglePasswordBtn").addEventListener("click", () => {
+  const display = document.getElementById("passwordDisplay");
+  const btn = document.getElementById("togglePasswordBtn");
+  if (display.textContent === "••••••••") {
+    const user = auth.currentUser;
+    // Firebase doesn't expose the password — show a note instead
+    display.textContent = "Hidden for security";
+    btn.textContent = "Hide";
+  } else {
+    display.textContent = "••••••••";
+    btn.textContent = "Show";
+  }
+});
+
+
 }); 
