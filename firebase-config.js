@@ -4,7 +4,7 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.2/firebas
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDiFpFxNyGbwSP1q2UR58Tt5y1DSpo_Cw8",
+  apiKey: "AIzaSyCZ8B63RWVF_DZbthfyqKW8D0x8xbXufpk",
   authDomain: "bfsguide-815e8.firebaseapp.com",
   projectId: "bfsguide-815e8",
   storageBucket: "bfsguide-815e8.firebasestorage.app",
