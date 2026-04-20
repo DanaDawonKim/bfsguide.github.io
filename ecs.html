@@ -62,7 +62,7 @@
         <ul>
             <li>Description: </li>
             <li>Category: </li>
-            <li>Activities: </li>
+            <li>Activities: Guest speakers, Leadership opportunities</li>
             <li>Kudos Button</li>
             <li class="diff-list">
                 <details class="difficulty-section">
@@ -739,6 +739,60 @@
 
                     <div id="reviews-wave" class="reviews-container"></div>
                     <div id="pagination-wave" class="pagination"></div>
+                    </div>
+                </details>
+            </li>
+        </ul>
+
+
+        <h3 id="mun">Model UN</h3>
+        <p>President: Ruby Chung</p>
+        <p>Advisor: Ms Viera</p>
+        <ul>
+            <li>Description: </li>
+            <li>Category: </li>
+            <li>Activities: </li>
+            <li>Kudos Button</li>
+            <li class="diff-list">
+                <details class="difficulty-section">
+                    <summary class="difficulty-header">
+                    Commitment Level ☆☆☆☆☆ (View Reviews)
+                    </summary>
+
+
+                    <div class="reviews-wrapper">
+                    <button onclick="toggleReviewForm('mun')">Leave a Review</button>
+
+
+                    <div id="review-form-mun" class="review-form hidden">
+
+
+                        <select id="grade-mun">
+                        <option value="">Years in club</option>
+                        <option value="1">1 year</option>
+                        <option value="2">2 years</option>
+                        <option value="3">3 years</option>
+                        <option value="4">4 years</option>
+                        </select>
+
+
+                        <select id="rating-mun">
+                        <option value="">Commitment Level</option>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                        </select>
+
+
+                        <textarea id="comment-mun" placeholder="Your comment"></textarea>
+                        <button onclick="submitReview('mun')">Submit</button>
+                    </div>
+
+
+                    <div id="reviews-mun" class="reviews-container"></div>
+                    <div id="pagination-mun" class="pagination"></div>
                     </div>
                 </details>
             </li>

@@ -105,6 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadReviews("ecs","saa");
   loadReviews("ecs","seed");
   loadReviews("ecs","wave");
+  loadReviews("ecs","mun");
   loadReviews("ecs","mathup");
   loadReviews("ecs","unity");
   loadReviews("ecs","dance");
