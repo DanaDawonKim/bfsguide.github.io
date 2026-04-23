@@ -18,6 +18,11 @@ window.submitReview = async function(type, itemId) {
   const comment = document.getElementById(`comment-${itemId}`).value;
   const rating = parseInt(document.getElementById(`rating-${itemId}`).value);
 
+  if (!comment || !rating) {
+    alert("Please fill in both a rating and a comment.");
+    return;
+  }
+
   await addDoc(
     collection(db, type, itemId, "reviews"),
     {
@@ -27,7 +32,12 @@ window.submitReview = async function(type, itemId) {
       created: new Date()
     }
   );
+
+  document.getElementById(`comment-${itemId}`).value = "";
+  document.getElementById(`rating-${itemId}`).selectedIndex = 0;
+  await loadReviews(type, itemId); // ← this was missing
 };
+
 
 window.loadReviews = async function(type, itemId) {
   const container = document.getElementById(`reviews-${itemId}`);
@@ -67,10 +77,17 @@ window.loadReviews = async function(type, itemId) {
   });
 };
 
+onAuthStateChanged(auth, (user) => {
+  if (!user) {
+    window.location.href = "login.html";
+  }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
 
   // courses
   loadReviews("courses","cshs");
+  loadReviews("courses","litcomp");
   loadReviews("courses","langcomp");
   loadReviews("courses","calcab");
   loadReviews("courses","calcbc");
